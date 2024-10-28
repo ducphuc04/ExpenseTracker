@@ -14,6 +14,6 @@ header {
 /* Page Background Added */
 [data-testid="stAppViewContainer"] {
     background-color: #444cf755;
-    opacity: 0.8;
+    opacity: 1.0;
     background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #000000 10px), repeating-linear-gradient(#00000055, #000000);
 }

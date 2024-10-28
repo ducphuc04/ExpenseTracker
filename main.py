@@ -1,3 +1,6 @@
+from database import DatabaseConnection
+
+
 class FamilyMember:
     def __init__(self, name, earning_status=True, earnings=0):
         self.name = name
@@ -20,6 +23,7 @@ class Expense:
 
     def __str__(self):
         return f"Value: {self.value}, Category: {self.category}, Description: {self.description}, Date: {self.date}"
+
 
 
 class FamilyExpenseTracker:
